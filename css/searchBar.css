@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1em;
+    margin: -0.6%;
+}
+
+#busca form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+#busca form input,#busca form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+#busca button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    width: 40px;
+}
+
+#busca button:hover {
+    background-color: whitesmoke;
+    color: white;
+}

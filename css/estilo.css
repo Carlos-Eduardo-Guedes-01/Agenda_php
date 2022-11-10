@@ -1,0 +1,216 @@
+@charset "utf-8";
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 1em;
+    margin: -0.6%;
+}
+h1{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: -8%;
+}
+button{
+	font-size: 1.2em;
+    border: none;
+    padding: 0.2em;
+    border-color: #ccc;
+    width: 89%;
+    height: 30px;
+    border-radius: 0.8em;
+}
+button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#branca input, #branca button {
+    font-size: 1.2em;
+    border: none;
+    padding: 0.2em;
+    border-color: #ccc;
+    width: 89%;
+    height: 30px;
+    border-radius: 0.8em;
+}
+
+#branca-busca input, #branca-busca button {
+    font-size: 1.2em;
+    border: none;
+    padding: 0.2em;
+    border-color: #ccc;
+    width: 89%;
+    height: 30px;
+    border-radius: 0.8em;
+}
+#lista{
+	margin-left: 7.5%;
+	margin-top: -6%;
+}
+#lista input{
+	font-size: 14pt;
+	outline: none;
+	margin-top: -2%;
+}
+
+.excluir,.alterar{
+	border-radius: 40px;
+}
+.excluir,.alterar:hover{
+	border-radius: 40px;	
+}
+#contatos{
+	height: 100%;
+}
+i{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.nv-numero{
+	max-width: 600px;
+	width: 400px;
+	align-items: center;
+	margin-left: 35%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px #bebebe;
+}
+.fa-trash-alt:before, .fa-trash-can:before {
+    content: "\f2ed";
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 6px;
+    box-shadow: 0px 0px 20px #bebebe;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    color: black;
+}
+.adicionar{
+	position: fixed;
+	bottom: 2px;
+	right: 4px;
+	z-index: 5;
+	background-color: white;
+	box-shadow: 0px 0px 20px #bebebe;
+	border-radius: 50%;
+	color: black;
+}
+#geral{
+	margin-top: 10%;
+}
+#branca a {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: black;
+}
+#branca a:hover {
+    background-color: whitesmoke;
+}
+#branca-busca a {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: black;
+}
+#branca-busca a:hover {
+    background-color: whitesmoke;
+}
+#branca button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: black;
+    background-color: white;
+}
+
+#branca button:hover {
+    background-color: whitesmoke;
+}
+#branca-busca button {
+	border: none;
+    cursor: pointer;
+    background: none;
+    color: black;
+}
+#branca-busca button:hover {
+    background-color: whitesmoke;
+}
+
+input:focus{
+	border: none;
+	outline-color: #00c3ff;
+}
+input{
+	border: none;
+	border-radius: 20px;
+}
+hr{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+#branca i{
+	padding-bottom: 3px;
+}
+.fa-trash-alt:before, .fa-trash-can:before {
+    content: "\f2ed";
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: -30%;
+    box-shadow: 0px 0px 20px #bebebe;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    color: black;
+}
+#branca{
+	margin-top: 2%;
+	border-radius: 20px;
+    padding: 0.3em;
+	padding-top: 4%;
+	max-width: 100%;
+	max-height: 10%;
+	height: 10%;
+	box-shadow: 1px;
+	border-radius: 4px;
+	padding-top: 4px;
+	padding-left: 4px;
+	box-shadow: 0px 0px 20px #bebebe;
+	background-color: white;
+}
+#branca-busca{
+	border-radius: 20px;
+    padding: 0.3em;
+	padding-top: 4%;
+	max-width: 100%;
+	max-height: 10%;
+	height: 10%;
+	box-shadow: 1px;
+	border-radius: 4px;
+	padding-top: 4px;
+	padding-left: 4px;
+	box-shadow: 0px 0px 20px #bebebe;
+	background-color: white;
+}
+.nv-numero input[type=submit]{
+	margin-left: 5%;
+	width: 200px;
+	background-color: white;
+	text-align: center;
+}
+.nv-numero input[type=submit]:hover{
+	background-color: whitesmoke;
+}
